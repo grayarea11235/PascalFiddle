@@ -1,7 +1,7 @@
 { Libgit2 }
 unit libgit2;
 
-{$link ??}
+{$link libgit2}
 
 interface
 
