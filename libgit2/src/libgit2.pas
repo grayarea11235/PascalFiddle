@@ -1,11 +1,12 @@
 { Libgit2 }
 unit libgit2;
 
-{$linklib libgit2}
+{$link ??}
 
 interface
 
-uses ctypes;
+uses 
+  ctypes;
 
 { int git_libgit2_init(); }
 function git_libgit2_init : cint32; cdecl; external;
@@ -17,6 +18,6 @@ function git_libgit2_shiutdown : cint32; cdecl; external;
 { function git_repository_open(var }
 
 
-implementation
+implementation 
 
 end.
